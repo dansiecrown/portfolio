@@ -1,0 +1,106 @@
+/* The navbar style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin: 0px 100px;
+}
+
+nav div{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+nav h2{
+    font-family: 'Water Brush', cursive;
+}
+
+nav div i {
+    color: black;
+    margin-right: 1em;
+    font-size: medium;
+}
+
+
+
+/* The top section */
+
+#top {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px;
+    position: relative;
+}
+
+.top-left{
+    padding: 1em;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-right{
+    padding:1em;
+    width: 40%;
+    
+}
+
+
+.top-left p {
+    padding: 1em 0px;
+    font-weight: 400;
+    font-size: medium;
+    line-height: 25px;
+}
+
+.top-icons{
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.top-left button{
+    width: 40%;
+    margin: 30px 0px;
+    padding: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-left button i{
+    margin-left:15px;
+}
+
+.top-left button:hover{
+    background-color: black;
+    color: white;
+    border: 0px;
+
+}
+
+
+/* What I do Section */
+
+.what-i-do{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 200px 50px;
+    transform: skew(0deg, -10deg);
+}
+.what-i-do .content{
+    
+    transform: skew(0deg, 10deg);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.what-i-do .content h1{
+    font-weight: 200;
+    font-size: 60px;
+}
+
+.what-i-do .content p{
+    padding-top: 20px;
+}
